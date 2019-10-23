@@ -18,6 +18,8 @@ classpath 'com.google.gms:google-services:4.2.0'
 
 
 #now you can add the following to pubspec.yaml file under dependencies
+#make sure that they are indented under dependencies
+#and becareful not to add it under dev_dependencies its different from dependencies
 cloud_firestore: ^0.12.7+1
 firebase_auth: ^0.11.1+12
 firebase_core: ^0.4.0+8
